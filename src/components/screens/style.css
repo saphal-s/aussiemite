@@ -1,0 +1,146 @@
+/* 
+
+product styling start
+
+*/
+.head {
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  color: #923838;
+}
+.head h3 {
+  font-weight: bold;
+  margin-top: 9px;
+  letter-spacing: 0.1ch;
+}
+.head h3::after {
+  content: "";
+  width: 40px;
+  display: block;
+  border-bottom: 4px solid #e19853;
+}
+.products {
+  width: 90%;
+  margin: auto;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.proudct-card {
+  height: 355px;
+  width: 250px;
+  background-color: #fff;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 15px;
+}
+.proudct-card p {
+  font-size: 17px;
+}
+.proudct-card .price {
+  margin-top: -13px;
+  font-weight: 550;
+}
+.proudct-card .prouct-content {
+  background-color: #f3e7d9;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #923838;
+}
+.products .view-more {
+  text-align: right;
+}
+.proudct-card button,
+.products .view-more button {
+  border: none;
+  padding: 4px 10px;
+  background-color: #fff;
+  border: 1px solid #e19853;
+  color: #923838;
+  font-weight: 550;
+}
+.proudct-card button:hover,
+.products .view-more button:hover {
+  background-color: #e19853;
+  color: #fff;
+}
+
+/* 
+
+product styling end
+
+*/
+/* 
+
+recipe styling start
+
+*/
+.recipe-card {
+  position: relative;
+}
+.recipe-card img {
+  z-index: -1;
+}
+.recipe-card p {
+  color: #fff;
+  background-color: #252323;
+  padding: 15px 10px;
+  width: 100%;
+  opacity: 0.8;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1ch;
+}
+.recipe-title {
+  margin-top: -61px;
+}
+
+/* 
+
+recipe styling end
+
+*/
+/* 
+
+pricing styling start
+
+*/
+
+.bundle-card-1 {
+  width: 250px;
+  height: 360px;
+  background-color: #fff;
+  margin: 20px;
+  margin-top: 45px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.bundle-card-2 {
+  width: 300px;
+  height: 404px;
+  background-color: #fff;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bundle {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bundle-content {
+  background-color: #f3e7d9;
+  padding: 1px 10px;
+}
+.bundle-content p {
+  font-weight: 550;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 2px;
+}
